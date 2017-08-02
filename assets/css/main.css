@@ -4008,4 +4008,41 @@
 						padding: 0;
 					}
 
+
 	}
+
+
+    /* CUSTOM CSS */
+        
+        
+        
+        .moving_desk_background {
+            background-image: url(../../images/resume_background.jpeg);
+            background-attachment: fixed; 
+            background-repeat: no-repeat; 
+            background-position:center; 
+            background-size: cover; 
+            
+        }
+
+        .resume {
+            height: 100%;
+            box-shadow: -2px 5px 8px #000000;
+        }
+
+
+        .resume_container_2 {
+            text-align: center;
+            position: absolute;
+            padding-bottom: 3em;
+            padding-top: 3em;
+            height: 100%; /*USE TO CHANGE HEIGHT OF RESUME*/
+        }
+
+        .resume_container {
+            display: inline-flex;
+            justify-content: center; 
+            align-items: center;
+            width: 66%;
+            height: 100vh;
+        }
