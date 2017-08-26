@@ -251,15 +251,15 @@ th {
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: transparent;
 }
 
 ::selection {
-    background: #FFF498
+    background:  transparent;
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background:  transparent;
 }
 
 img::-moz-selection {
