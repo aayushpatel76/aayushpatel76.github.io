@@ -275,7 +275,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #FFF498
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
