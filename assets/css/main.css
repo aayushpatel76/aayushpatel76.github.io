@@ -735,7 +735,7 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #e74c3c/*for the main page rectangle*/
+    background-color: transparent;/*for the main page rectangle*/
 }
 
 .intro--banner h1 {
@@ -2035,6 +2035,13 @@ body {
     
 }
 
+.resume_text h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 135px;
+    display: none;
+}
+
 .button_box1{
    width: 100%;
     text-align: center;
@@ -2063,7 +2070,29 @@ body {
 
 
 @media (max-width: 770px){
-      
+   .resume_box {
+    text-align: center;
+    height: 65%;
+    padding-top: 135px;
+    width: 100%;
+    display: none;
+    
+}
+    .button_box1{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+    
+    .resume_text h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 135px;
+    display: block;
+    }
+    
 }
 
 @media (max-width: 600px){
@@ -2078,8 +2107,16 @@ body {
     .button_box1{
     width: 100%;
     text-align: center;
-    padding-top: 135px;
+    padding-top: 30px;
+
 
 }
+    
+    .resume_text h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 135px;
+    display: block;
+    }
 }
 
